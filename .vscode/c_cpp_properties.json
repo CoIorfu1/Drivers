@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/book/100ask_imx6ull-sdk/Linux-4.9.88/include", 
+                "/home/book/100ask_imx6ull-sdk/Linux-4.9.88/include/linux",
+                "/home/book/100ask_imx6ull-sdk/Linux-4.9.88/arch/arm/include",
+                "/home/book/100ask_imx6ull-sdk/Linux-4.9.88/arch/arm/include/generated/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

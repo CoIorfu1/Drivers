@@ -1,0 +1,1 @@
+cmd_/home/book/Drivers/led_irq/led_key_driver.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/Drivers/led_irq/led_key_driver.ko /home/book/Drivers/led_irq/led_key_driver.o /home/book/Drivers/led_irq/led_key_driver.mod.o ;  true
