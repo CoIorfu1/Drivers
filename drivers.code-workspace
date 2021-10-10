@@ -10,7 +10,8 @@
 			"irq.h": "c",
 			"device.h": "c",
 			"kernel.h": "c",
-			"consumer.h": "c"
+			"consumer.h": "c",
+			"interrupt.h": "c"
 		}
 	}
 }

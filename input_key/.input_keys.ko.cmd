@@ -1,0 +1,1 @@
+cmd_/home/book/Drivers/input_key/input_keys.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/Drivers/input_key/input_keys.ko /home/book/Drivers/input_key/input_keys.o /home/book/Drivers/input_key/input_keys.mod.o ;  true
