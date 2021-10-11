@@ -1,0 +1,1 @@
+cmd_/home/book/Drivers/i2c/ap3216c.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/Drivers/i2c/ap3216c.ko /home/book/Drivers/i2c/ap3216c.o /home/book/Drivers/i2c/ap3216c.mod.o ;  true
