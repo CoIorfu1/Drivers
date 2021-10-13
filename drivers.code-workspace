@@ -16,7 +16,9 @@
 			"of_gpio.h": "c",
 			"slab.h": "c",
 			"seq_file.h": "c",
-			"uaccess.h": "c"
+			"uaccess.h": "c",
+			"ide.h": "c",
+			"hardirq.h": "c"
 		}
 	}
 }

@@ -1,0 +1,1 @@
+cmd_/home/book/Drivers/spi/icm20608.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/Drivers/spi/icm20608.ko /home/book/Drivers/spi/icm20608.o /home/book/Drivers/spi/icm20608.mod.o ;  true
