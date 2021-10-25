@@ -18,7 +18,8 @@
 			"seq_file.h": "c",
 			"uaccess.h": "c",
 			"ide.h": "c",
-			"hardirq.h": "c"
+			"hardirq.h": "c",
+			"stdio.h": "c"
 		}
 	}
 }
