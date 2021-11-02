@@ -10,7 +10,7 @@ struct input_event keys_input_event;
 
 int main(int argc,char *argv[]){
     int err;
-    int fd = open("/dev/input/event1",O_RDONLY);
+    int fd = open("/dev/input/event2",O_RDONLY);
     if(fd<0){
         printf("open fail\n");
     }
@@ -22,14 +22,20 @@ int main(int argc,char *argv[]){
             printf("read fail\n");
         }
         if(err>0){
-            switch (keys_input_event.type)
-            {
-            case EV_KEY:
-                printf("key's value = %d\n",keys_input_event.code);
-                break;
             
-            default:
-                break;
+            if((keys_input_event.type == EV_KEY) && (keys_input_event.code == KEY_1)){
+                if(keys_input_event.value == 0){
+                    printf("key 1 up,%d\n",keys_input_event.value);
+                }else if(keys_input_event.value == 1){
+                    printf("key 1 down,%d\n",keys_input_event.code);
+                }
+            } 
+            if((keys_input_event.type == EV_KEY) && (keys_input_event.code == KEY_4)){
+                if(keys_input_event.value == 0){
+                    printf("key 4 up,%d\n",keys_input_event.code);
+                }else if(keys_input_event.value == 1){
+                    printf("key 4 down,%d\n",keys_input_event.code);
+                }
             }
         }
     }
