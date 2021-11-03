@@ -26,14 +26,14 @@ int main(int argc,char *argv[]){
             if((keys_input_event.type == EV_KEY) && (keys_input_event.code == KEY_1)){
                 if(keys_input_event.value == 0){
                     printf("key 1 up,%d\n",keys_input_event.value);
-                }else if(keys_input_event.value == 1){
+                }else if(keys_input_event.value > 0){
                     printf("key 1 down,%d\n",keys_input_event.code);
                 }
             } 
             if((keys_input_event.type == EV_KEY) && (keys_input_event.code == KEY_4)){
                 if(keys_input_event.value == 0){
                     printf("key 4 up,%d\n",keys_input_event.code);
-                }else if(keys_input_event.value == 1){
+                }else if(keys_input_event.value > 0){
                     printf("key 4 down,%d\n",keys_input_event.code);
                 }
             }
