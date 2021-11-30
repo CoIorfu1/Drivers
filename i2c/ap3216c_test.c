@@ -16,8 +16,9 @@ int main(int argc, char **argv){
     }
 
     len = read(fd, buf, sizeof(buf));
+    if(len < 0) printf("read fail\n");
     for(len = 0;len<6;len++) {
-        printf("%02x", buf[len]);
+        printf("%02x\n", buf[len]);
     }    
     printf("\n");
     close(fd);
