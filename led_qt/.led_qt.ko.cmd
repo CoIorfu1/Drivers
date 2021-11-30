@@ -1,0 +1,1 @@
+cmd_/home/book/Drivers/led_qt/led_qt.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/Drivers/led_qt/led_qt.ko /home/book/Drivers/led_qt/led_qt.o /home/book/Drivers/led_qt/led_qt.mod.o ;  true
